@@ -1,0 +1,40 @@
+{
+  "name": "vuexo",
+  "version": "1.0.0",
+  "description": "Vuexo is a Hexo theme inspired by Vue's official website.",
+  "scripts": {
+    "setup": "npm cache clean && npm install",
+    "lint": "bash lint.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saqqdy/vuexo.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "vuexo"
+  ],
+  "author": "saqqdy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saqqdy/vuexo/issues"
+  },
+  "homepage": "https://github.com/saqqdy/vuexo",
+  "devDependencies": {
+    "ejs-lint": "^0.2.0",
+    "eslint": "^3.14.0",
+    "eslint-plugin-import": "^2.2.0",
+    "standard": "^10.0.2"
+  },
+  "standard": {
+    "globals": [
+      "jQuery",
+      "NProgress"
+    ],
+    "ignore": [
+      "source/js/gitment.js",
+      "source/js/qrious.js"
+    ]
+  }
+}
